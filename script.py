@@ -1,6 +1,6 @@
 import csv, sqlite3
 
-con = sqlite3.connect("shipment.db")
+con = sqlite3.connect("shipment_database.db")
 cur = con.cursor()
 
 with open('data/shipping_data_0.csv', 'r')as csv_file:
